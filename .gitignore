@@ -1,0 +1,37 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore log directories
+logs/
+uploads/
+temp/
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore environment variable files
+.env.local
+.env
+
+# Ignore package-lock.json file
+package-lock.json
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore coverage reports
+coverage/
